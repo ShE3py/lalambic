@@ -72,7 +72,8 @@ public class BrewingRecipe {
         
         return null;
     }
-
+    
+    @Nullable
     public static ItemStack getResult(ItemStack base, Material reagent) {
         if(base.getItemMeta() instanceof PotionMeta meta) {
             if(base.getType() == Material.POTION && reagent == Material.GUNPOWDER) {

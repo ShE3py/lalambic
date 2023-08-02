@@ -7,232 +7,232 @@ api-version: 1.19
 
 permissions:
   lalambic.brew.mundane:
-    default: true
+    default: op
   
   lalambic.splash.mundane:
-    default: true
+    default: op
   
   lalambic.linger.mundane:
-    default: true
+    default: op
   
   lalambic.brew.thick:
-    default: true
+    default: op
   
   lalambic.splash.thick:
-    default: true
+    default: op
   
   lalambic.linger.thick:
-    default: true
+    default: op
   
   lalambic.brew.awkward:
-    default: false
+    default: op
   
   lalambic.splash.awkward:
-    default: true
+    default: op
   
   lalambic.linger.awkward:
-    default: true
+    default: op
   
   lalambic.brew.night_vision:
-    default: true
+    default: op
   
   lalambic.lengthen.night_vision:
-    default: true
+    default: op
   
   lalambic.splash.night_vision:
-    default: true
+    default: op
   
   lalambic.linger.night_vision:
-    default: true
+    default: op
   
   lalambic.brew.invisibility:
-    default: true
+    default: op
   
   lalambic.lengthen.invisibility:
-    default: true
+    default: op
   
   lalambic.splash.invisibility:
-    default: true
+    default: op
   
   lalambic.linger.invisibility:
-    default: true
+    default: op
   
   lalambic.brew.jump:
-    default: true
+    default: op
   
   lalambic.lengthen.jump:
-    default: true
+    default: op
   
   lalambic.strengthen.jump:
-    default: true
+    default: op
   
   lalambic.splash.jump:
-    default: true
+    default: op
   
   lalambic.linger.jump:
-    default: true
+    default: op
   
   lalambic.brew.fire_resistance:
-    default: true
+    default: op
   
   lalambic.lengthen.fire_resistance:
-    default: true
+    default: op
   
   lalambic.splash.fire_resistance:
-    default: true
+    default: op
   
   lalambic.linger.fire_resistance:
-    default: true
+    default: op
   
   lalambic.brew.speed:
-    default: true
+    default: op
   
   lalambic.lengthen.speed:
-    default: true
+    default: op
   
   lalambic.strengthen.speed:
-    default: true
+    default: op
   
   lalambic.splash.speed:
-    default: true
+    default: op
   
   lalambic.linger.speed:
-    default: true
+    default: op
   
   lalambic.brew.slowness:
-    default: true
+    default: op
   
   lalambic.lengthen.slowness:
-    default: true
+    default: op
   
   lalambic.strengthen.slowness:
-    default: true
+    default: op
   
   lalambic.splash.slowness:
-    default: true
+    default: op
   
   lalambic.linger.slowness:
-    default: true
+    default: op
   
   lalambic.brew.water_breathing:
-    default: true
+    default: op
   
   lalambic.lengthen.water_breathing:
-    default: true
+    default: op
   
   lalambic.splash.water_breathing:
-    default: true
+    default: op
   
   lalambic.linger.water_breathing:
-    default: true
+    default: op
   
   lalambic.brew.instant_heal:
-    default: true
+    default: op
   
   lalambic.strengthen.instant_heal:
-    default: true
+    default: op
   
   lalambic.splash.instant_heal:
-    default: true
+    default: op
   
   lalambic.linger.instant_heal:
-    default: true
+    default: op
   
   lalambic.brew.instant_damage:
-    default: true
+    default: op
   
   lalambic.strengthen.instant_damage:
-    default: true
+    default: op
   
   lalambic.splash.instant_damage:
-    default: true
+    default: op
   
   lalambic.linger.instant_damage:
-    default: true
+    default: op
   
   lalambic.brew.poison:
-    default: true
+    default: op
   
   lalambic.lengthen.poison:
-    default: true
+    default: op
   
   lalambic.strengthen.poison:
-    default: true
+    default: op
   
   lalambic.splash.poison:
-    default: true
+    default: op
   
   lalambic.linger.poison:
-    default: true
+    default: op
   
   lalambic.brew.regen:
-    default: true
+    default: op
   
   lalambic.lengthen.regen:
-    default: true
+    default: op
   
   lalambic.strengthen.regen:
-    default: true
+    default: op
   
   lalambic.splash.regen:
-    default: true
+    default: op
   
   lalambic.linger.regen:
-    default: true
+    default: op
   
   lalambic.brew.strength:
-    default: true
+    default: op
   
   lalambic.lengthen.strength:
-    default: true
+    default: op
   
   lalambic.strengthen.strength:
-    default: true
+    default: op
   
   lalambic.splash.strength:
-    default: true
+    default: op
   
   lalambic.linger.strength:
-    default: true
+    default: op
   
   lalambic.brew.weakness:
-    default: true
+    default: op
   
   lalambic.lengthen.weakness:
-    default: true
+    default: op
   
   lalambic.splash.weakness:
-    default: true
+    default: op
   
   lalambic.linger.weakness:
-    default: true
+    default: op
   
   lalambic.brew.turtle_master:
-    default: true
+    default: op
   
   lalambic.lengthen.turtle_master:
-    default: true
+    default: op
   
   lalambic.strengthen.turtle_master:
-    default: true
+    default: op
   
   lalambic.splash.turtle_master:
-    default: true
+    default: op
   
   lalambic.linger.turtle_master:
-    default: true
+    default: op
   
   lalambic.brew.slow_falling:
-    default: true
+    default: op
   
   lalambic.lengthen.slow_falling:
-    default: true
+    default: op
   
   lalambic.splash.slow_falling:
-    default: true
+    default: op
   
   lalambic.linger.slow_falling:
-    default: true
+    default: op
   
   lalambic.brew.*:
     default: op

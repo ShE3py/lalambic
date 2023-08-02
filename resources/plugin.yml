@@ -4,3 +4,340 @@ author: ShE3py
 
 main: fr.she3py.lalambic.Lalambic
 api-version: 1.19
+
+permissions:
+  lalambic.brew.mundane:
+    default: true
+  
+  lalambic.splash.mundane:
+    default: true
+  
+  lalambic.linger.mundane:
+    default: true
+  
+  lalambic.brew.thick:
+    default: true
+  
+  lalambic.splash.thick:
+    default: true
+  
+  lalambic.linger.thick:
+    default: true
+  
+  lalambic.brew.awkward:
+    default: false
+  
+  lalambic.splash.awkward:
+    default: true
+  
+  lalambic.linger.awkward:
+    default: true
+  
+  lalambic.brew.night_vision:
+    default: true
+  
+  lalambic.lengthen.night_vision:
+    default: true
+  
+  lalambic.splash.night_vision:
+    default: true
+  
+  lalambic.linger.night_vision:
+    default: true
+  
+  lalambic.brew.invisibility:
+    default: true
+  
+  lalambic.lengthen.invisibility:
+    default: true
+  
+  lalambic.splash.invisibility:
+    default: true
+  
+  lalambic.linger.invisibility:
+    default: true
+  
+  lalambic.brew.jump:
+    default: true
+  
+  lalambic.lengthen.jump:
+    default: true
+  
+  lalambic.strengthen.jump:
+    default: true
+  
+  lalambic.splash.jump:
+    default: true
+  
+  lalambic.linger.jump:
+    default: true
+  
+  lalambic.brew.fire_resistance:
+    default: true
+  
+  lalambic.lengthen.fire_resistance:
+    default: true
+  
+  lalambic.splash.fire_resistance:
+    default: true
+  
+  lalambic.linger.fire_resistance:
+    default: true
+  
+  lalambic.brew.speed:
+    default: true
+  
+  lalambic.lengthen.speed:
+    default: true
+  
+  lalambic.strengthen.speed:
+    default: true
+  
+  lalambic.splash.speed:
+    default: true
+  
+  lalambic.linger.speed:
+    default: true
+  
+  lalambic.brew.slowness:
+    default: true
+  
+  lalambic.lengthen.slowness:
+    default: true
+  
+  lalambic.strengthen.slowness:
+    default: true
+  
+  lalambic.splash.slowness:
+    default: true
+  
+  lalambic.linger.slowness:
+    default: true
+  
+  lalambic.brew.water_breathing:
+    default: true
+  
+  lalambic.lengthen.water_breathing:
+    default: true
+  
+  lalambic.splash.water_breathing:
+    default: true
+  
+  lalambic.linger.water_breathing:
+    default: true
+  
+  lalambic.brew.instant_heal:
+    default: true
+  
+  lalambic.strengthen.instant_heal:
+    default: true
+  
+  lalambic.splash.instant_heal:
+    default: true
+  
+  lalambic.linger.instant_heal:
+    default: true
+  
+  lalambic.brew.instant_damage:
+    default: true
+  
+  lalambic.strengthen.instant_damage:
+    default: true
+  
+  lalambic.splash.instant_damage:
+    default: true
+  
+  lalambic.linger.instant_damage:
+    default: true
+  
+  lalambic.brew.poison:
+    default: true
+  
+  lalambic.lengthen.poison:
+    default: true
+  
+  lalambic.strengthen.poison:
+    default: true
+  
+  lalambic.splash.poison:
+    default: true
+  
+  lalambic.linger.poison:
+    default: true
+  
+  lalambic.brew.regen:
+    default: true
+  
+  lalambic.lengthen.regen:
+    default: true
+  
+  lalambic.strengthen.regen:
+    default: true
+  
+  lalambic.splash.regen:
+    default: true
+  
+  lalambic.linger.regen:
+    default: true
+  
+  lalambic.brew.strength:
+    default: true
+  
+  lalambic.lengthen.strength:
+    default: true
+  
+  lalambic.strengthen.strength:
+    default: true
+  
+  lalambic.splash.strength:
+    default: true
+  
+  lalambic.linger.strength:
+    default: true
+  
+  lalambic.brew.weakness:
+    default: true
+  
+  lalambic.lengthen.weakness:
+    default: true
+  
+  lalambic.splash.weakness:
+    default: true
+  
+  lalambic.linger.weakness:
+    default: true
+  
+  lalambic.brew.turtle_master:
+    default: true
+  
+  lalambic.lengthen.turtle_master:
+    default: true
+  
+  lalambic.strengthen.turtle_master:
+    default: true
+  
+  lalambic.splash.turtle_master:
+    default: true
+  
+  lalambic.linger.turtle_master:
+    default: true
+  
+  lalambic.brew.slow_falling:
+    default: true
+  
+  lalambic.lengthen.slow_falling:
+    default: true
+  
+  lalambic.splash.slow_falling:
+    default: true
+  
+  lalambic.linger.slow_falling:
+    default: true
+  
+  lalambic.brew.*:
+    default: op
+    children:
+      lalambic.brew.mundane: true
+      lalambic.brew.thick: true
+      lalambic.brew.awkward: true
+      lalambic.brew.night_vision: true
+      lalambic.brew.invisibility: true
+      lalambic.brew.jump: true
+      lalambic.brew.fire_resistance: true
+      lalambic.brew.speed: true
+      lalambic.brew.slowness: true
+      lalambic.brew.water_breathing: true
+      lalambic.brew.instant_heal: true
+      lalambic.brew.instant_damage: true
+      lalambic.brew.poison: true
+      lalambic.brew.regen: true
+      lalambic.brew.strength: true
+      lalambic.brew.weakness: true
+      lalambic.brew.luck: true
+      lalambic.brew.turtle_master: true
+      lalambic.brew.slow_falling: true
+  
+  lalambic.lengthen.*:
+    default: op
+    children:
+      lalambic.lengthen.night_vision: true
+      lalambic.lengthen.invisibility: true
+      lalambic.lengthen.jump: true
+      lalambic.lengthen.fire_resistance: true
+      lalambic.lengthen.speed: true
+      lalambic.lengthen.slowness: true
+      lalambic.lengthen.water_breathing: true
+      lalambic.lengthen.poison: true
+      lalambic.lengthen.regen: true
+      lalambic.lengthen.strength: true
+      lalambic.lengthen.weakness: true
+      lalambic.lengthen.turtle_master: true
+      lalambic.lengthen.slow_falling: true
+  
+  lalambic.strengthen.*:
+    default: op
+    children:
+      lalambic.strengthen.jump: true
+      lalambic.strengthen.speed: true
+      lalambic.strengthen.slowness: true
+      lalambic.strengthen.instant_heal: true
+      lalambic.strengthen.instant_damage: true
+      lalambic.strengthen.poison: true
+      lalambic.strengthen.regen: true
+      lalambic.strengthen.strength: true
+      lalambic.strengthen.turtle_master: true
+  
+  lalambic.splash.*:
+    default: op
+    children:
+      lalambic.splash.mundane: true
+      lalambic.splash.thick: true
+      lalambic.splash.awkward: true
+      lalambic.splash.night_vision: true
+      lalambic.splash.invisibility: true
+      lalambic.splash.jump: true
+      lalambic.splash.fire_resistance: true
+      lalambic.splash.speed: true
+      lalambic.splash.slowness: true
+      lalambic.splash.water_breathing: true
+      lalambic.splash.instant_heal: true
+      lalambic.splash.instant_damage: true
+      lalambic.splash.poison: true
+      lalambic.splash.regen: true
+      lalambic.splash.strength: true
+      lalambic.splash.weakness: true
+      lalambic.splash.luck: true
+      lalambic.splash.turtle_master: true
+      lalambic.splash.slow_falling: true
+  
+  lalambic.linger.*:
+    default: op
+    children:
+      lalambic.linger.mundane: true
+      lalambic.linger.thick: true
+      lalambic.linger.awkward: true
+      lalambic.linger.night_vision: true
+      lalambic.linger.invisibility: true
+      lalambic.linger.jump: true
+      lalambic.linger.fire_resistance: true
+      lalambic.linger.speed: true
+      lalambic.linger.slowness: true
+      lalambic.linger.water_breathing: true
+      lalambic.linger.instant_heal: true
+      lalambic.linger.instant_damage: true
+      lalambic.linger.poison: true
+      lalambic.linger.regen: true
+      lalambic.linger.strength: true
+      lalambic.linger.weakness: true
+      lalambic.linger.luck: true
+      lalambic.linger.turtle_master: true
+      lalambic.linger.slow_falling: true
+    
+    lalambic.*:
+      default: op
+      children:
+        lalambic.brew.*: true
+        lalambic.lengthen.*: true
+        lalambic.strengthen.*: true
+        lalambic.splash.*: true
+        lalambic.linger.*: true

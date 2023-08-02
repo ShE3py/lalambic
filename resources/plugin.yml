@@ -1,0 +1,6 @@
+name: ${project.name}
+version: ${project.version}
+author: ShE3py
+
+main: fr.she3py.lalambic.Lalambic
+api-version: 1.19

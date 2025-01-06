@@ -6,9 +6,9 @@ Les permissions sont sous la forme `lalambic.<action>.<potion>`, où `<action>` 
 |    Action    | Description                                                                   |
 |:------------:|:------------------------------------------------------------------------------|
 |    `brew`    | Créer une potion fondamentale.                                                |
-|  `lengthen`  | Allonger une potion fondamentale (poudre de redstone).                        |
-| `strengthen` | Renforcer une potion fondamentale (poudre lumineuse).                         |
-|   `splash`   | Transformer une potion fondamentale en une potion jetable (poudre à canon).   |
+|  `lengthen`  | Allonger une potion (poudre de redstone).                                     |
+| `strengthen` | Renforcer une potion (poudre lumineuse).                                      |
+|   `splash`   | Transformer une potion en une potion jetable (poudre à canon).                |
 |   `linger`   | Transformer une potion jetable en une potion persistante (souffle du dragon). |
 
 Et où `<potion>` correspond à une des potions de la table ci-dessous.
@@ -17,18 +17,18 @@ Et où `<potion>` correspond à une des potions de la table ci-dessous.
 
 |      Potion       | Allongeable | Renforçable |
 |:-----------------:|:-----------:|:-----------:|
-|     `mundane`     |   &cross;   |   &cross;   |
-|      `thick`      |   &cross;   |   &cross;   |
-|     `awkward`     |   &cross;   |   &cross;   |
-|  `night_vision`   |   &check;   |   &cross;   |
-|  `invisibility`   |   &check;   |   &cross;   |
+|     `mundane`     |             |             |
+|      `thick`      |             |             |
+|     `awkward`     |             |             |
+|  `night_vision`   |   &check;   |             |
+|  `invisibility`   |   &check;   |             |
 |      `jump`       |   &check;   |   &check;   |
-| `fire_resistance` |   &check;   |   &cross;   |
+| `fire_resistance` |   &check;   |             |
 |      `speed`      |   &check;   |   &check;   |
 |    `slowness`     |   &check;   |   &check;   |
-| `water_breathing` |   &check;   |   &cross;   |
-|  `instant_heal`   |   &cross;   |   &check;   |
-| `instant_damage`  |   &cross;   |   &check;   |
+| `water_breathing` |   &check;   |             |
+|  `instant_heal`   |             |   &check;   |
+| `instant_damage`  |             |   &check;   |
 |     `poison`      |   &check;   |   &check;   |
 |      `regen`      |   &check;   |   &check;   |
 |    `strength`     |   &check;   |   &check;   |
@@ -36,7 +36,7 @@ Et où `<potion>` correspond à une des potions de la table ci-dessous.
 |  `turtle_master`  |   &check;   |   &check;   |
 |  `slow_falling`   |   &check;   |   &check;   |
 
-## Example
+## Exemple
 
 Pour créer entièrement une potion de force II persistante, le joueur devra avoir les
 permissions suivantes :
@@ -45,3 +45,7 @@ permissions suivantes :
 - `lalambic.strengthen.strength`
 - `lalambic.splash.strength`
 - `lalambic.linger.strength`
+
+## Remarque
+
+Les entonnoirs peuvent être utilisés pour outrepasser ce système de permissions.

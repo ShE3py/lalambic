@@ -1,3 +1,7 @@
+# Lalambic
+
+[English version](README.md)
+
 ## Permissions
 
 Les permissions sont sous la forme `lalambic.<action>.<potion>`, où `<action>` correspond

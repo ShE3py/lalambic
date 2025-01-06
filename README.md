@@ -1,3 +1,7 @@
+# Lalambic
+
+[Version française](LISEZMOI.md)
+
 ## Permissions
 
 Permissions are in the format `lalambic.<action>.<potion>`, where `<action>` is one of
@@ -49,4 +53,4 @@ permissions:
 
 ## Remark
 
-Hoppers may be used to bypass this permissions system.
+Hoppers may be used to bypass this permission system.
